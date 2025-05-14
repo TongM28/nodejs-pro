@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-pro",
+  "version": "1.0.0",
+  "description": "nodejs pro",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TongM28/nodejs-pro.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "expressnpm",
+    "-v"
+  ],
+  "author": "minh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TongM28/nodejs-pro/issues"
+  },
+  "homepage": "https://github.com/TongM28/nodejs-pro#readme"
+}
