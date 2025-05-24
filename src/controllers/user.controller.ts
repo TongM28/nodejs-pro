@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { getAllUsers, handleCreateUser } from "../services/user.service";
-import { name } from "ejs";
+
 const getHomePage = async (req: Request, res: Response) => {
   //get users
   const users = await getAllUsers();
