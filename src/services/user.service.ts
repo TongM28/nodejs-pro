@@ -11,7 +11,7 @@ const handleCreateUser = async (
       "INSERT INTO `users`(`name`, `email`, `address`) VALUES (?, ?, ?)";
     const values = [fullName, email, address];
 
-    const [result] = await connection.execute(sql, values);
+    const [result, fields] = await connection.execute(sql, values);
     return result;
   } catch (err) {
     console.log(err);
